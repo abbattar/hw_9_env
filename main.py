@@ -1,7 +1,7 @@
 from telegram.ext import ApplicationBuilder, CommandHandler
 from bot_command import *
 
-app = ApplicationBuilder().token("5968242670:AAEQLpfLLzDBhWzVvfSGqEXSuqwv5jNHXC4").build()
+app = ApplicationBuilder().token("YOUR_TELEGRAM_TOKEN_KEY").build()
                                 # YOUR_TELEGRAM_TOKEN_KEY
 app.add_handler(CommandHandler("hi", hi_command))
 app.add_handler(CommandHandler("time", time_command))
