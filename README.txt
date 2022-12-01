@@ -12,5 +12,5 @@ $ python main.py
 
 ***To Create a Virtual Environment:***
 
-python -m venv <your_env> :: To Virtual Studio Code in Windows
-python3 -m venv <your_env> :: To Other OS
+$ python -m venv <your_env> :: To Virtual Studio Code in Windows
+$ python3 -m venv <your_env> :: To Other OS
